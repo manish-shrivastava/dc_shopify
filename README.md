@@ -1,5 +1,5 @@
 # README
-##Object
+## Object
 Generate an inventory feed that is an XML document as validated by the Dynamic Creative Retail Standard Vertical
 schema, and associated documentation, that contains a list of all applicable inventory items currently
 available within the context of a website.
