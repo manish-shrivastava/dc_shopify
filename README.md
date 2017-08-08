@@ -1,9 +1,4 @@
 # README
-
-Please follow below steps to setup:
-
-* Take clone from `git clone git@github.com:manish-shrivastava/dc_shopify.git`
-# README
 ##Object
 Generate an inventory feed that is an XML document as validated by the Dynamic Creative Retail Standard Vertical
 schema, and associated documentation, that contains a list of all applicable inventory items currently
