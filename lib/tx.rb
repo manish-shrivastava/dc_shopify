@@ -12,11 +12,11 @@ class Tx
 
   def self.varient
     [nil, "one", "two", "three", "four", "five", "six", "seven",
-      "eight", "nine", "ten" ]
+      "eight", "nine", "ten"]
   end
 
   def self.category
     [nil, "first", "second", "third", "fourth", "fifth", "sixth", "seventh",
-      "eighth", "ninth", "tenth" ]
+      "eighth", "ninth", "tenth"]
   end
 end
