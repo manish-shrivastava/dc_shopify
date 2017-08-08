@@ -1,0 +1,1 @@
+Dir["#{Rails.root}/lib/validator.rb", "#{Rails.root}/lib/tx.rb", ].each {|file| require file }
