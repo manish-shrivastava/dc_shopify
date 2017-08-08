@@ -1,0 +1,37 @@
+<div class="container">    
+  <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+    <div class="panel panel-info" >
+      <div class="panel-heading">
+          <div class="panel-title">Setup Shopify API</div>                        
+      </div>     
+      <div style="padding-top:30px" class="panel-body" >
+        <%= form_tag(controller: "shopify", action: "create", method: "post") do %>
+            <div class="form-group" style="margin-bottom: 20px" >
+              <label for="api_key">API Key</label>
+              <input type="text" class="form-control" id="api_key" name="api_key" placeholder="Enter API Key">
+            </div>
+          
+            <div class="form-group" style="margin-bottom: 20px" >
+              <label for="api_key">API Password</label>
+              <input type="text" class="form-control" id="api_password" name="api_password" placeholder="Enter API Password">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 20px" >
+              <label for="hostname">Hostname</label>
+
+              <div class="input-group" style="margin-bottom: 0px" >
+                <input id="msg" type="text" class="form-control" id="hostname" name="hostname" placeholder="Enter Hostname">
+                <span class="input-group-addon" >.myshopify.com/admin</span>
+              </div>
+            </div>
+            <div style="margin-bottom: 20px" > you will have to login to your shopify account and get credentials and paste here. 
+              <a href="https://www.shopping-cart-migration.com/wp-content/uploads/2010/05/Selection_095.png"> Reference</a> and <a href="https://help.shopify.com/api/getting-started/api-credentials#generate-private-app-credentials"> Reference 2</a>
+
+            </div>
+             
+          <%= submit_tag("Submit", class: 'btn btn-primary') %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
